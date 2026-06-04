@@ -15,13 +15,14 @@
             flex-wrap: wrap;
             margin: 28px auto 20px;
             max-width: 1200px;
-            padding: 0 16px;
+            padding: 0 16px
+            ;
         }
 
         .header-row img {
-            width: 180px;
+            width: 220px;
             max-width: 100%;
-            border-radius: 18px;
+            border-radius: 0px;
             
         }
 
@@ -31,49 +32,209 @@
             text-align: center;
         }
 
-        @media (max-width: 720px) {
-            .header-row {
-                flex-direction: column;
-            }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    ;
+}
 
-            .header-row img {
-                width: 220px;
-            }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 700px;
+}
+
+
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    text-align:justify;
+    font-size: 30px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #71008e;
+}
+
+        .nav ul
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: space-between;
+            background-color: #f06b19;
+            color: white;
+            padding: 40px 0;
+            border-radius: 0px;
+            list-style-type:none;
+            margin: 20px auto;
+            max-width: 700px;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        .video-container video {
+            width: 100%;
+            max-width: 700px;
+            height: auto;
+            display: block;
+            border-radius: 0px;
+        }
+        .button-link {
+            background-color: transparent;
+            color: #fff;
+            border: 1px solid rgba(255,255,255,0.6);
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+            transition: background-color 0.25s ease, color 0.25s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .button-link:hover {
+            background-color: #71008e;
+            color: #ffffff;
+        }
+        .title {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 40px;
+            margin: 20px auto;
+            background-color: #71008e;
+            color: white;
+            padding: 20px;
+            border-radius: 0px;
         }
     </style>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <div class="header-row">
         <img src="grafika/szkielet tany tany copy.jpg" alt="Tańczący szkielet po lewej stronie">
-        <header style="color: #71008e; font-family:'Arial Narrow', Arial; font-size: 50px;">
+        <header style="color: #71008e; font-family:'Arial Narrow', Arial; font-size: 45px;">
             <h1 style="margin: 0;">NWK FESTIVAL 2026</h1>
+
+<nav>
+    <ul style="display: block;background-color: #f1711b; color: white; padding: 40px 0; border-radius: 0px; list-style-type:none; margin: 20px auto; max-width: 700px;">
+        <li style="display: inline-block; margin: 0 15px;"><a href="index.html" style="color: white; text-decoration: none; font-family: Arial; font-size: 18px;">
+            <ul class="nav-links">
+            <li><a href="ofestiwalu.html">O FESTIWALU</a></li>
+            <li><a href="lineup.html">LINEUP 2026</a></li>
+            <li><a href="galeria.html">GALERIA</a></li>
+
+        </ul>
+    </nav>
+
         </header>
         <img src="grafika/szkielet tany tany.jpg" alt="Tańczący szkielet po prawej stronie">
     </div>
 
- <h1 style="text-align: center; font-family: Arial; font-style:bold"
+ <h1 style="text-align: center; font-family: Arial; font-style:bold; background-color:#71008e; color:white; padding: 20px; border-radius: 0px; margin: 0px auto; max-width: 1000px;">
         
-         >ZAPRASZAMY NA TEGOROCZNĄ EDYCJĘ NWK FESTIVAL! 
+         ZAPRASZAMY NA TEGOROCZNĄ EDYCJĘ NWK FESTIVAL! 
 
 </h1>
-<p style="text-align:center; font-family: Arial; font-size: 20px; margin: 20px auto; font-weight: 300; max-width: 720px;">
+<p style="text-align:center; font-family: Arial; font-size: 20px; margin: 0px auto; max-width: 1000px; border-style:dashed; border-width: 3px; border-color: #71008e; padding: 20px; border-radius: 0px;">
     W tym roku rusza kolejna edycja NWK FESTIVAL! <br>
-    Jak co roku 19 czerwca, w Opolu na Nowej Wsi Królewskiej wystąpią sami najlepsi artyści.<br>
+    Jak co roku, 19 czerwca, w Opolu na Nowej Wsi Królewskiej wystąpią sami najlepsi artyści.<br>
     <br>
-    ˙⋆✮ Posłuchaj Fontaines D.C. na wodnej scenie ˙⋆✮ <br>
-    ˙⋆✮ Spróbuj darmowych działek na koncercie The Strokes ˙⋆✮ <br>
-    ˙⋆✮ Zarzyj brytyjskiej kultury z Catfish and the Bottlemen ˙⋆✮ <br>
-    ˙⋆✮ Wygraj bilet na Afterparty u Kowala podczas występu The 1975 ˙⋆✮ <br>
-    ˙⋆✮ Płacz do do 'Teal' od Wunderhorse ˙⋆✮ <br>
-˙⋆✮Pij piwo, wygrywaj karnety i baw się do białego rana (lub do kiedy jesteś w stanie) z wieloma innymi artystami! ˙⋆✮<br> 
+    ✮ Posłuchaj <b>Fontaines D.C.</b> na wodnej scenie ✮ <br>
+    ✮ Spróbuj darmowych działek na koncercie <b>The Strokes</b> ✮ <br>
+    ✮ Zarzyj brytyjskiej kultury z <b>Catfish and the Bottlemen</b> ✮ <br>
+    ✮ Wygraj bilet na Afterparty u Kowala podczas występu <b>The 1975</b> ✮ <br>
+    ✮ Płacz do do <i>'Teal'</i> od <b>Wunderhorse</b> ✮ <br>
+✮ Pij piwo, wygrywaj karnety i baw się do białego rana (lub do kiedy jesteś w stanie) z wieloma innymi artystami! ✮<br> 
+</p>
+<div class="video-container">
+    <video controls>
+      <source src="grafika/InShot_20260506_004849269.mp4" type="video/mp4">
+    </video>
+</div>
+<h1 style="text-align: center; font-family: Arial; font-style:bold; color:#71008e;">
+        
+         ✮ TEGOROCZNA SCENA ✮  
+
+</h1>
+<div class="img gallery" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin: 20px auto; max-width: 1200px;">
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+        <img src="grafika/gorillaz.jpg" alt="Gorillaz" style="width: 300px; height: 300px; border-radius: 0px; ">
+        <blockquote style="width: 300px; min-height: 100px; border-radius: 0px; display: flex; align-items: center; justify-content: center; background-color: #71008e; color: white; font-family: Arial; font-size: 18px; text-align: center;">
+            GORILLAZ
+        </blockquote>
+    </div>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+        <img src="grafika/thestrokes.jpg" alt="The Strokes" style="width: 300px; height: 300px; border-radius: 0px; ">
+        <blockquote style="width: 300px; min-height: 100px; border-radius: 0px; display: flex; align-items: center; justify-content: center; background-color: #71008e; color: white; font-family: Arial; font-size: 18px; text-align: center;">
+            THE STROKES
+        </blockquote>
+    </div>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+        <img src="grafika/t1975.jpeg" alt="The 1975" style="width: 300px; height: 300px; border-radius: 0px; ">
+        <blockquote style="width: 300px; min-height: 100px; border-radius: 0px; display: flex; align-items: center; justify-content: center; background-color: #71008e; color: white; font-family: Arial; font-size: 18px; text-align: center;">
+            THE 1975
+        </blockquote>
+    </div>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+        <img src="grafika/wolfalice.jpg" alt="Wolf Alice" style="width: 300px; height: 300px; border-radius: 0px; ">
+        <blockquote style="width: 300px; min-height: 100px; border-radius: 0px; display: flex; align-items: center; justify-content: center; background-color: #71008e; color: white; font-family: Arial; font-size: 18px; text-align: center;">
+            WOLF ALICE
+        </blockquote>
+    </div>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+        <img src="grafika/thesmashingpumpkins.jpg" alt="THE SMASHING PUMPKINS" style="width: 300px; height: 300px; border-radius: 0px; ">
+        <blockquote style="width: 300px; min-height: 100px; border-radius: 0px; display: flex; align-items: center; justify-content: center; background-color: #71008e; color: white; font-family: Arial; font-size: 18px; text-align: center;">
+            THE SMASHING PUMPKINS
+        </blockquote>
+    </div>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+        <img src="grafika/charliexcx.jpg" alt="Charlie XCX" style="width: 300px; height: 300px; border-radius: 0px; ">
+        <blockquote style="width: 300px; min-height: 100px; border-radius: 0px; display: flex; align-items: center; justify-content: center; background-color: #71008e; color: white; font-family: Arial; font-size: 18px; text-align: center;">
+            CHARLIE XCX
+        </blockquote>
+    </div>
+    <blockquote style="width: 300px; height: 300px; border-radius: 0px; display: flex; align-items: center; justify-content: center; background-color: #f06b19; color: white; font-family: Arial; font-size: 18px; text-align: center;">
+        <button class="button-link" onclick="window.location.href='lineup.html';">ZOBACZ WSZYSTKICH ARTYSTÓW...</button> 
+</div>
+<div style=" margin:10px; display: flex; flex-direction: column; align-items: center; gap: 20px;">
+<blockquote style="width: 300px; height: 100px; display: flex; align-items: center; justify-content: center; background-color: #CD113B; color:white; font-family: Arial; font-size: 20px; text-align: center; margin:0px">
+    KUP SWÓJ BILET <br>
+ JUŻ TERAZ!
+</blockquote>
+<blockquote style="width: 300px; height: 600px; display: flex; align-items: center; justify-content: center; border-color: #CD113B; border-style: dashed; color:#71008e; font-family: Arial; font-size: 20px; text-align: center; margin:0px; font-style: bold;">
+<p> <br> OPOLE,<br> NOWA WIEŚ KRÓLEWSKA <br>
+    19.06.2026 <br> 
+    17:00<br> <br> <br>
+    <button style="background-color: #71008e; color:white; font-family: Arial; width: 250px; height: 100px;">COMING SOON</button> 
 </p>
 
-    
+</div>
+ <footer style="margin:50px; display:block">
 
-        
+<p style="font-family:Arial; font-size: 15px; text-align:left"> Kasper Grochalski s36524
+     </p>
 
-        
-        
-
+ </footer>
 </body>
 </html>
