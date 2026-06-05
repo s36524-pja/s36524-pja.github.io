@@ -4,12 +4,166 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GALERIA</title>
+    <style>
+
+        .header-row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 28px auto 20px;
+            max-width: 1200px;
+            padding: 0 16px
+            ;
+        }
+
+        .header-row img {
+            width: 220px;
+            max-width: 100%;
+            border-radius: 0px;
+            
+        }
+
+        .header-row header {
+            flex: 1 1 340px;
+            min-width: 280px;
+            text-align: center;
+        }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    ;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 700px;
+}
+
+
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    color: #f06b19;
+    text-decoration: none;
+    text-align:justify;
+    font-size: 30px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #71008e;
+}
+
+        .nav ul
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: space-between;
+            background-color: #f06b19;
+            color: #f06b19;
+            padding: 40px 0;
+            border-radius: 0px;
+            list-style-type:none;
+            margin: 20px auto;
+            max-width: 700px;
+        }
+
+        .gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 10px;
+        }
+
+        .zdjecie-box {
+            flex: 1 1 calc(25% - 20px);
+            min-width: 220px;
+            max-width: 300px;
+        }
+
+        .zdjecie-box img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 0px;
+        }
+
+    </style>
+
+<link rel="stylesheet" href="style.css">
+
+
 </head>
 <body>
     <header style="text-align: center;
- font-family: Arial; font-size: 40px; margin: 20px auto;" 
- background-color:#71008e; color:white;> 
-   <h1> GALERIA NASZEGO FESTIWALU </h1> 
+ font-family: Arial; font-size: 40px; margin: 20px auto; color:#71008e;"> 
+
+   <nav>
+ <ul style="display: block;color: #f06b19; padding: 2px 0; border-radius: 0px; list-style-type:none; margin: 20px auto; max-width: 700px;">
+        <li style="display: inline-block; margin:50px;"><a href="index.html" style="color: white; text-decoration: none; font-family: Arial; font-size: 18px;">
+            <ul class="nav-links">
+            <li><a href="index.html">NWK FESTIWAL 2026</a></li>
+            <li><a href="lineup.html">LINEUP 2026</a></li>
+            <li><a href="ofestiwalu.html">O FESTIWALU</a></li>
+            
+
+        </ul>
+
+   </nav>
+   <h1> GALERIA NASZEGO FESTIWALU </h1>
     </header>
+
+
+ <div class="gallery-container">
+    
+        <div class="zdjecie-box"><img src="grafika/czerwony michau.jpg" alt="czerwony michau1"></div>
+
+        <div class="zdjecie-box"><img src="grafika/715507702_1309159254126832_2914601132896406019_n.jpg" alt="zoha winston"></div>
+
+        <div class="zdjecie-box"><img src="grafika/576986516_867894042258599_7537122644533280371_n.jpg" alt=" co roczny karton"></div>
+
+        <div class="zdjecie-box"><img src="grafika/576650454_1570096620837343_7623416404073867001_n.jpg" alt="ziomki"></div>
+
+     <div class="zdjecie-box"><img src="grafika/712543167_1043006685055221_6767200446154377418_n.jpg" alt="pempusio"></div>
+
+      <div class="zdjecie-box"><img src="grafika/713643163_2133083247256330_4949096174966008657_n.jpg" alt="moistcritical"></div>
+
+ <div class="zdjecie-box"><img src="grafika/714584306_1534236904971026_5312141006339766842_n.jpg" alt="czerwony michau2"></div>
+
+ <div class="zdjecie-box"><img src="grafika/P1030629.jpg" alt="tytoniowy czlowiek"></div>
+
+  <div class="zdjecie-box"><img src="grafika/miozciachem.jpg" alt="torcik"></div>
+
+   <div class="zdjecie-box"><img src="grafika/ourpleman.jpg" alt="purpleguy"></div>
+
+    <div class="zdjecie-box"><img src="grafika/kiepscy.jpg" alt="kiepski zarcik"></div>
+
+</div>
+
+<footer style="margin:50px; display:block">
+
+<p style="font-family:Arial; font-size: 15px; text-align:left"> Kasper Grochalski s36524
+     </p>
+
+ </footer>
+
     </body>
     </html>
